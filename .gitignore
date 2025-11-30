@@ -1,0 +1,13 @@
+# Ignore Keys
+*.pem
+
+# Ignore Chat Logs
+*.json
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore System Files
+.DS_Store
+Thumbs.db

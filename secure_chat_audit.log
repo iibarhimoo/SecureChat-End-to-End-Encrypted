@@ -1,0 +1,100 @@
+
+[2025-12-07 01:39:25] --- OUTGOING ENCRYPTION ---
+Message: Hello Secure World
+Generated AES Session Key (Hex): db52e242e6296040bc92de734c83f98d45451951f1a614f047b95be8a6a86873
+AES Nonce (Hex): 72b5e5c3aa12085e8c26252c
+AES Ciphertext (Hex): 63084530f73fbad2baacf76191f349df949d
+AES Tag (Hex): df65a68d1d858e0868c4f5eab8496630
+Encrypted Session Key (RSA Block) (Hex): 47d0124428acc4daa4f0f682600c76522cf5fe6e080ca3299517f7f4d64c428f...[truncated]
+Digital Signature (Hex): 8ea0296094129851684f94b9f1874611b01e00a486c858e63c414a09abbfe384...[truncated]
+------------------------------------------------------------
+[2025-12-07 01:39:25] --- INCOMING DECRYPTION ---
+Raw Packet Size: 826 bytes
+Decrypted AES Session Key (Hex): db52e242e6296040bc92de734c83f98d45451951f1a614f047b95be8a6a86873
+Decrypted Message: Hello Secure World
+Signature Verification: VALID
+------------------------------------------------------------
+[2025-12-07 02:33:57] --- OUTGOING ENCRYPTION ---
+Message: hello
+Generated AES Session Key (Hex): 6e5114f98f51aa252f0a7cd9cd65b4e35b999ab9f81c9c91f2019cf8a124de0b
+AES Nonce (Hex): d2c7e8e4d99077a5a50e486d
+AES Ciphertext (Hex): e0d61d5275
+AES Tag (Hex): d8675445f193fe53734a56f1c51e653d
+Encrypted Session Key (RSA Block) (Hex): 68df4efa905087f6738ba7925e13fd4d3effc6d25699fe2dcb81fb9c1c6ff127...[truncated]
+Digital Signature (Hex): 250c7c1ab8410d809b122448a7fef9d1b50bc9df29caf7ff0bea543cdac27343...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:34:07] --- OUTGOING ENCRYPTION ---
+Message: hello
+Generated AES Session Key (Hex): f0d69ad6498b4bcc78e56b04366f0a3624724d74c5eb17a218d80f74ce323ed0
+AES Nonce (Hex): 7af65db287d8215ac2b8b358
+AES Ciphertext (Hex): 799877dfb6
+AES Tag (Hex): 886e01abdd1a174f51676aff7b5b567c
+Encrypted Session Key (RSA Block) (Hex): ad49c60affe4c40822f8ee4862b808b37743de4bda347fa54c6f5441cd5793c4...[truncated]
+Digital Signature (Hex): bb15b8a917fd06d009cb0f7713f10dd1e33586d8df5976a23c51d1c09387f671...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:34:07] --- DECRYPTION FAILURE ---
+Failed to decrypt Session Key (RSA). Wrong Private Key?
+Error: Decryption failed
+------------------------------------------------------------
+[2025-12-07 02:34:07] --- SIGNATURE FAILURE ---
+Digital Signature verification failed.
+Error: 
+------------------------------------------------------------
+[2025-12-07 02:34:07] --- INCOMING DECRYPTION ---
+Raw Packet Size: 810 bytes
+Decrypted AES Session Key (Hex): f0d69ad6498b4bcc78e56b04366f0a3624724d74c5eb17a218d80f74ce323ed0
+Decrypted Message: hello
+Signature Verification: INVALID
+------------------------------------------------------------
+[2025-12-07 02:39:27] --- OUTGOING ENCRYPTION ---
+Message: hello
+Generated AES Session Key (Hex): 84ecad2ee70deda9290837ac6f533672f7f493ea58b8357e50445b3b9135033d
+AES Nonce (Hex): 0c47a25797a6b7b940ca7e0b
+AES Ciphertext (Hex): 5f69606a9b
+AES Tag (Hex): 6f53fe85f840ea2096b30a1d099710c6
+Encrypted Session Key (RSA Block) (Hex): 9c846d1161d212d9c497649af91987e391524b36b5f6c1eb1ced62d8fc984973...[truncated]
+Digital Signature (Hex): 943be7b4cdf55c3666d0979e8b1f2373472889767ba9e5a5dcd495f149c0e5fb...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:39:27] --- DECRYPTION FAILURE ---
+AES-GCM Integrity Check Failed.
+Error: 
+------------------------------------------------------------
+[2025-12-07 02:40:33] --- OUTGOING ENCRYPTION ---
+Message: Hello
+Generated AES Session Key (Hex): b2207a62172f7612a3d37a7be4ac70bcfdf6868a6f343f77a85c3d782a0a20ea
+AES Nonce (Hex): d3b8e20382201c4091a51ebf
+AES Ciphertext (Hex): 9b943f4302
+AES Tag (Hex): bfb5152236ec49eca25c45b32d252d58
+Encrypted Session Key (RSA Block) (Hex): acea1cf68da62bdb9879889a78e3d0cfb81c93bb5bfe3194b3fe2471e13882d3...[truncated]
+Digital Signature (Hex): 4737f178bd39931ac0620f67eb86df6f9c943490315ca35cb6a6d71eada59427...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:40:33] --- DECRYPTION FAILURE ---
+AES-GCM Integrity Check Failed.
+Error: 
+------------------------------------------------------------
+[2025-12-07 02:45:15] --- OUTGOING ENCRYPTION ---
+Message: Hello Bob!
+Generated AES Session Key (Hex): e5ef8f566b5788d16896518df7ce4f70e317b28f155fc032b7ab499ef28bb3c1
+AES Nonce (Hex): 00936f9911dc9bd059a05417
+AES Ciphertext (Hex): 76a9d5ad875deff5cf0e
+AES Tag (Hex): 9b0d02748a83091391ba5f331f5b9324
+Encrypted Session Key (RSA Block) (Hex): 55f1197e7cda0fa251340d905e59afccfe9005b7f456b7fefcadbc340f90b6a0...[truncated]
+Digital Signature (Hex): 783d969012385944849cc52935fb01e62369b47798b02721637f85168069af5d...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:45:15] --- DECRYPTION FAILURE ---
+Failed to decrypt Session Key (RSA). Wrong Private Key?
+Error: Decryption failed
+------------------------------------------------------------
+[2025-12-07 02:47:09] --- OUTGOING ENCRYPTION ---
+Message: This message is for Charlie only!
+Generated AES Session Key (Hex): 3e156fc26067ea78af67defe4640de780ce2d1de8134bbd1d997b670a7961345
+AES Nonce (Hex): 210a604aaa8c700b4c0358fd
+AES Ciphertext (Hex): f6835eaa2a60ef84fdaa91fa1f86d1b96037770b94999acce9b70d273ef81339f8
+AES Tag (Hex): 1653ec2a2ffde048ed440ee3500dcefa
+Encrypted Session Key (RSA Block) (Hex): 58d9b2539854ee222ed4be82ba318502d0e717709533756d2f8792fb94a1a7a2...[truncated]
+Digital Signature (Hex): 2456d65d3b97d8e48b62d9fac7736ecab8711ff790ea7f2ec1e24b845ae5571c...[truncated]
+------------------------------------------------------------
+[2025-12-07 02:47:09] --- DECRYPTION FAILURE ---
+Failed to decrypt Session Key (RSA). Wrong Private Key?
+Error: Decryption failed
+------------------------------------------------------------

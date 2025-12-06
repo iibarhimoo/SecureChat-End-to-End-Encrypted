@@ -3,7 +3,7 @@ import threading
 
 # Configuration
 DEFAULT_PORT = 6000
-HOST = '127.0.0.1'
+HOST = '0.0.0.0' # Listen on all network interfaces
 
 clients = []
 
@@ -14,12 +14,13 @@ def broadcast(message, _client_socket):
             try:
                 client.send(message)
             except:
-                clients.remove(client)
+                if client in clients:
+                    clients.remove(client)
 
 def handle_client(client_socket):
     while True:
         try:
-            message = client_socket.recv(8192) # Increased buffer size
+            message = client_socket.recv(8192) # 8KB buffer
             if not message:
                 break
             broadcast(message, client_socket)
@@ -39,6 +40,7 @@ def start_server():
         server.bind((HOST, port))
         server.listen()
         print(f"✅ Server listening on {HOST}:{port}")
+        print(f"   (Share your IP address with the client)")
         
         while True:
             client_socket, addr = server.accept()

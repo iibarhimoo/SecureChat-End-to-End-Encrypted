@@ -142,7 +142,7 @@ class CryptoHandler:
 class SecureChatClient:
     def __init__(self, root):
         self.root = root
-        self.root.title("SecureChat v3.0 (Robust)")
+        self.root.title("SecureChat v2.0")
         self.root.geometry("900x650")
 
         self.my_priv_key = None
